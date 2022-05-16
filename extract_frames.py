@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-This script will extract pdb files from a clustering output from the tool:
+This script will extract pdb files from a clustering output from the modified tool:
 https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb
-modified to write the pdb_cluster.csv file. (MODIFIED)
+to write the pdb_cluster.csv file.
+Modified version at http...
 1. Read the data from pdb_cluster.csv
 2. Iterate over the data
 3. Extract frames from clusters into pdbs
@@ -33,7 +34,7 @@ def parse_args(argv):
         "-f",
         dest="frames",
         required=True,
-        help="Frames specified in the IFP_generation_examples_TRAJ.ipynb tool.",
+        help="Frames specified in the modified IFP_generation_examples_TRAJ.ipynb tool.",
     )
     opts = parser.parse_args(argv)
     return opts
