@@ -1,0 +1,7 @@
+trajectory,path
+0,'/path_to_output/Traj1_0.3/rep01/ramd_trj_fixed.xtc'
+1,'/path_to_output/Traj1_0.3/rep010/ramd_trj_fixed.xtc'
+2,'/path_to_output/Traj1_0.3/rep011/ramd_trj_fixed.xtc'
+3,'/path_to_output/Traj1_0.3/rep012/ramd_trj_fixed.xtc'
+4,'/path_to_output/Traj1_0.3/rep013/ramd_trj_fixed.xtc'
+5,'/path_to_output/Traj1_0.3/rep014/ramd_trj_fixed.xtc'
