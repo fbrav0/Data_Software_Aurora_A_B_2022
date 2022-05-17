@@ -42,7 +42,7 @@ These lines will write the [IFP_data.csv](scripts/IFP_data.csv) file with the fo
 ...
 ```
 
-Then the [extract_frames.py](scripts/extract_frames.py) script should be used to extract the structures in PDB files using [MDAnalysis](https://github.com/MDAnalysis/mdanalysis).
+3. Then the [extract_frames.py](scripts/extract_frames.py) script should be used to extract the structures in PDB files using [MDAnalysis](https://github.com/MDAnalysis/mdanalysis).
 
 Use it as: 
 ``python extract_frames.py IPF_data.csv -r routes.csv -f 300``
