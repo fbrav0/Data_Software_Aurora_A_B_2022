@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """
-This script will extract pdb files from a clustering output from the tool:
+This script will extract pdb files from a clustering output from the tools:
 https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb
+https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_Analysis.ipynb
 
-1. Read the data from routes.csv
-2. Iterate over the data
-3. Extract frames from clusters into pdbs
-4. Use as:
-python extract_frames.py -r routes.csv -f 300
+See instructions at:
+https://github.com/fbrav0/Data_Software_Aurora_A_B_2022
+
+1. Read the IFP_data.csv
+2. Read the data from routes.csv
+3. Iterate over the data
+4. Extract frames from clusters into pdbs
+5. Use as:
+python extract_frames.py IFP_data.csv -r routes.csv -f 300
 """
 
 import argparse
