@@ -10,7 +10,7 @@ In this repository are available the initial structures of [Aurora A](Aurora_A-D
 
 1. The fingerprints must be previously calculated using the [PL IFP Traj tool](https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb) script.  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3981155.svg)](https://doi.org/10.5281/zenodo.3981155).
 
-a ``routes.csv`` file should be prepared with the output paths of the processed trajectories as the example [routes.csv](scripts/routes.csv).
+A ``routes.csv`` file should be prepared with the output paths of the processed trajectories as the example [routes.csv](scripts/routes.csv).
 
 **Note:** To obtain the paths, use the [PL IFP Traj tool](https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb) script. In the cell where the paths are read, the "trajectory" number and the path will be printed. Note that the order of the replicas to be used depends on the order in which the files are read in the analysis. Not always the "trajectory" 1 will correspond to the WT-MetaD replica1. 
 
