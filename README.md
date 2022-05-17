@@ -2,7 +2,7 @@
 
 ## Initial structures
 
-In this repository are available the initial structures of [Aurora A](Aurora_A_Danusertib.pdb) and [Aurora B](Aurora_B_Danusertib.pdb) in complex with Danusertib ligand in PDB format. 
+In this repository are available the initial structures of [Aurora A](Aurora_A-Danusertib.pdb) and [Aurora B](Aurora_B-Danusertib.pdb) in complex with Danusertib ligand in PDB format. 
 
 ## Instructions and scripts to extract cluster structures from WT-MetaD trajectories. 
 
