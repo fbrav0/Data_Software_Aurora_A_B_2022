@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-This script will extract pdb files from a clustering output from the modified tool:
+This script will extract pdb files from a clustering output from the tool:
 https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb
-to write the pdb_cluster.csv file.
-Modified version at http...
-1. Read the data from pdb_cluster.csv
+
+1. Read the data from routes.csv
 2. Iterate over the data
 3. Extract frames from clusters into pdbs
 4. Use as:
-python extract_ligand_from_clusters_02.py pdb_test.csv -r Dir_Traj1_Metad_0.3.txt -f 300
+python extract_frames.py -r routes.csv -f 300
 """
 
 import argparse
