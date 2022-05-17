@@ -12,7 +12,7 @@ In this repository are available the initial structures of [Aurora A](Aurora_A-D
 
 a ``routes.csv`` file should be prepared with the output paths of the processed trajectories as the example [routes.csv](scripts/routes.csv).
 
-**Note:** To obtain the paths, use the [PL IFP Traj tool](https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb) script. In the cell where the paths are read, the "trajectory" number and the path will be printed. Note that this is the order of the replicas to be used as it depends on the order in which the files are read in the analysis. Not always the "trajectory" 1 will correspond to the WT-MetaD replica1. 
+**Note:** To obtain the paths, use the [PL IFP Traj tool](https://github.com/HITS-MCM/MD-IFP/blob/master/IFP_generation_examples_TRAJ.ipynb) script. In the cell where the paths are read, the "trajectory" number and the path will be printed. Note that the order of the replicas to be used depends on the order in which the files are read in the analysis. Not always the "trajectory" 1 will correspond to the WT-MetaD replica1. 
 
 Save the information in the [routes.csv](scripts/routes.csv) file with the following structure:
 
@@ -47,6 +47,6 @@ Then the [extract_frames.py](scripts/extract_frames.py) script should be used to
 Use it as: 
 ``python extract_frames.py IPF_data.csv -r routes.csv -f 300``
 
-The input file is the IFP_data.csv. For the -r or --routes option is passed the [routes.csv](scripts/routes.csv) file and the -f or --frames option is passed the number of frames with which the fingerprints analysis was performed.
+The input file is the IFP_data.csv. For the -r or --routes option, the [routes.csv](scripts/routes.csv) file should be provided, whereas the -f or --frames option correspond to the number of frames used for the fingerprints analysis.
 
 
